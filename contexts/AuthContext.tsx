@@ -8,28 +8,17 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 const mockUsers: User[] = [
   {
     id: '1',
-    name: 'Rahul Sharma',
-    phone: '+919876543210',
+    name: 'Abhay deol',
+    phone: '+919874456221',
     role: 'customer'
   },
   {
     id: '2',
-    name: 'Priya Patel',
-    phone: '+919876543211',
-    role: 'customer'
-  },
-  {
-    id: '3',
-    name: 'Amit Kumar',
-    username: 'amit.kumar',
-    role: 'agent'
-  },
-  {
-    id: '4',
-    name: 'Sneha Singh',
-    username: 'sneha.singh',
+    name: 'Tanmay Bhatt',
+    username: 'tanmay.bhatt',
     role: 'agent'
   }
+  
 ];
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {

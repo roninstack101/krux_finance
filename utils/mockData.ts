@@ -23,8 +23,8 @@ export const initialTickets: SupportTicket[] = [
     {
         id: 'TKT001',
         customerId: '1',
-        customerName: 'Rahul Sharma',
-        customerPhone: '+919876543210',
+        customerName: 'Abhay deol',
+        customerPhone: '+919874456221`',
         status: 'open',
         priority: 'medium',
         category: 'loan-application',
@@ -37,7 +37,7 @@ export const initialTickets: SupportTicket[] = [
             },
             {
                 id: '2',
-                content: "Hello Rahul! I can help you with your business loan application. What specific assistance do you need?",
+                content: "Hello Abhay! I can help you with your business loan application. What specific assistance do you need?",
                 sender: 'bot',
                 timestamp: new Date('2024-02-20T10:01:00')
             }

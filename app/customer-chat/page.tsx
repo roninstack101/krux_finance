@@ -63,7 +63,7 @@ export default function CustomerChatPage() {
                   KRUX Finance AI Assistant
                 </h1>
                 <p className="text-sm text-white/60">
-                  Hello, {user?.name} • We`&apos;`re here to help
+                  Hello, {user?.name} • We are here to help
                 </p>
               </div>
             </div>
